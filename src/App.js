@@ -5,12 +5,8 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div>
-<<<<<<< HEAD
-	    <h1>hai sayang, Love You :* <3 </h1>
-=======
+      <div
 	   <h1> Hai sayangku, Love You :*</h1>
->>>>>>> ca9661b3c10688b08a74fdf6c3f0483eaa5d4244
       </div>
     );
   }
