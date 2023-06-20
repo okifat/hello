@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: di-sukharev/opencommit@github-action-v1.0.2
+      - uses: di-sukharev/opencommit@github-action-v1.0.4
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -37,3 +37,4 @@ jobs:
           OCO_EMOJI: false
           OCO_MODEL: gpt-3.5-turbo
           OCO_LANGUAGE: en
+
